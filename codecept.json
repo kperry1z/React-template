@@ -1,0 +1,16 @@
+{
+  "tests": "./acceptance/*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://www.localhost:3000",
+      "browser": "chrome",
+      "windowSize": "1920x1080"
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "template-react"
+}
